@@ -9,6 +9,17 @@ html {
     font-family: system-ui, sans-serif;
 }
 
+#add {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+    background-color: rgba(87, 173, 87, 0.89);
+}
+
+button:hover, button:focus {
+    cursor: pointer;
+}
+
 .header {
     display: flex;
     flex-direction: column;
@@ -20,11 +31,15 @@ html {
 .book-container {
     padding: 1rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
 .book {
     border: 2px solid rgba(239, 162, 47, 0.748);
+    border-radius: 5px;
+    background-color: rgba(188, 86, 86, 0.691);
+    box-shadow: inset 5px 5px black;
     width: 200px;
     padding: 1rem;
     display: flex;
