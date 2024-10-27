@@ -9,11 +9,16 @@ html {
     font-family: system-ui, sans-serif;
 }
 
+h1 {
+    font-size: 2.5rem;
+}
+
 #add {
     font-size: 2rem;
     font-weight: 700;
     padding: 1rem;
     background-color: rgba(87, 173, 87, 0.89);
+    border-radius: 15px;
 }
 
 button:hover, button:focus {
@@ -46,4 +51,10 @@ button:hover, button:focus {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+}
+
+.book > button {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
 }
